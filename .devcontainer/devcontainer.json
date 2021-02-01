@@ -1,10 +1,8 @@
 {
 	"name": "Learn Rust",
-	"context": "..",
 	"dockerFile": "../Dockerfile",
-	"settings": {
-		"terminal.integrated.shell.linux": null
-	},
-	"extensions": [],
-	"remoteUser": "learn"
+	"extensions": [
+		"rust-lang.rust"
+	],
+	"remoteUser": "developer"
 }

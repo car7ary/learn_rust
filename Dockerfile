@@ -2,7 +2,7 @@ FROM rust:1-buster
 
 ENV TZ Asia/Tokyo
 
-ARG USERNAME=learn
+ARG USERNAME=developer
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
