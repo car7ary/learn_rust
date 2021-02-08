@@ -2,7 +2,9 @@
 	"name": "Learn Rust",
 	"dockerFile": "../Dockerfile",
 	"extensions": [
-		"rust-lang.rust"
+		"rust-lang.rust",
+		"ritwickdey.liveserver",
+		"bungcip.better-toml"
 	],
 	"remoteUser": "developer"
 }
