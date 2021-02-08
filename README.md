@@ -4,7 +4,7 @@
 https://doc.rust-jp.rs/book/second-edition
 
 進捗
-P.15
+P44
 
 始め方
 1. Pull
