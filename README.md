@@ -1,7 +1,7 @@
 # learn_rust
 
 テキスト
-https://doc.rust-jp.rs/book/second-edition
+https://doc.rust-jp.rs/book-ja/index.html
 
 進捗
 P44
