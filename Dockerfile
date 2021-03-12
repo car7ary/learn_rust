@@ -1,4 +1,4 @@
-FROM rust:1-buster
+FROM rust:1.42.0-buster
 
 ENV TZ Asia/Tokyo
 
@@ -16,4 +16,9 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-USER $USERNAME
+RUN rustup component add --toolchain 1.42.0 \
+    rls \
+    rust-analysis \
+    rust-src
+
+ENV USER=$USERNAME

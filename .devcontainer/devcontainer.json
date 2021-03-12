@@ -3,8 +3,10 @@
 	"dockerFile": "../Dockerfile",
 	"extensions": [
 		"rust-lang.rust",
-		"ritwickdey.liveserver",
 		"bungcip.better-toml"
 	],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
 	"remoteUser": "developer"
 }
